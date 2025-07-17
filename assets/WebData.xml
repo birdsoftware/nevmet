@@ -1,0 +1,88 @@
+<webdata>
+  <stations>
+    <station name="Aliante">
+      <reports>
+        <report name="NewBatch1 Battery Voltage">
+          <page_image>Aliante/NewBatch1 Battery Voltage.jpg</page_image>
+          <graph>Aliante/NewBatch1 Battery Voltage_graph.jpg</graph>
+          <web_page>Aliante/NewBatch1 Battery Voltage.htm</web_page>
+        </report>
+        <report name="NewBatch1 Enclosure RH">
+          <page_image>Aliante/NewBatch1 Enclosure RH.jpg</page_image>
+          <graph>Aliante/NewBatch1 Enclosure RH_graph.jpg</graph>
+          <web_page>Aliante/NewBatch1 Enclosure RH.htm</web_page>
+        </report>
+        <report name="NewBatch1 Air Temperature">
+          <page_image>Aliante/NewBatch1 Air Temperature.jpg</page_image>
+          <graph>Aliante/NewBatch1 Air Temperature_graph.jpg</graph>
+          <web_page>Aliante/NewBatch1 Air Temperature.htm</web_page>
+        </report>
+        <report name="NewBatch1 Solar Radiation">
+          <page_image>Aliante/NewBatch1 Solar Radiation.jpg</page_image>
+          <graph>Aliante/NewBatch1 Solar Radiation_graph.jpg</graph>
+          <web_page>Aliante/NewBatch1 Solar Radiation.htm</web_page>
+        </report>
+        <report name="NewBatch1 Relative Humidity">
+          <page_image>Aliante/NewBatch1 Relative Humidity.jpg</page_image>
+          <graph>Aliante/NewBatch1 Relative Humidity_graph.jpg</graph>
+          <web_page>Aliante/NewBatch1 Relative Humidity.htm</web_page>
+        </report>
+        <report name="NewBatch1 Rain Fall">
+          <page_image>Aliante/NewBatch1 Rain Fall.jpg</page_image>
+          <graph>Aliante/NewBatch1 Rain Fall_graph.jpg</graph>
+          <web_page>Aliante/NewBatch1 Rain Fall.htm</web_page>
+        </report>
+        <report name="NewBatch1 Wind Speed">
+          <page_image>Aliante/NewBatch1 Wind Speed.jpg</page_image>
+          <graph>Aliante/NewBatch1 Wind Speed_graph.jpg</graph>
+          <web_page>Aliante/NewBatch1 Wind Speed.htm</web_page>
+        </report>
+        <report name="NewBatch1 Wind Rose">
+          <page_image>Aliante/NewBatch1 Wind Rose.jpg</page_image>
+          <graph>Aliante/NewBatch1 Wind Rose_graph.jpg</graph>
+          <web_page>Aliante/NewBatch1 Wind Rose.htm</web_page>
+        </report>
+        <report name="NewBatch1 Evapotranspiration">
+          <page_image>Aliante/NewBatch1 Evapotranspiration.jpg</page_image>
+          <graph>Aliante/NewBatch1 Evapotranspiration_graph.jpg</graph>
+          <web_page>Aliante/NewBatch1 Evapotranspiration.htm</web_page>
+        </report>
+        <report name="NewBatch1 Crop Water Needs">
+          <page_image>Aliante/NewBatch1 Crop Water Needs.jpg</page_image>
+          <graph>Aliante/NewBatch1 Crop Water Needs_graph.jpg</graph>
+          <web_page>Aliante/NewBatch1 Crop Water Needs.htm</web_page>
+        </report>
+        <report name="NewBatch1 GDD">
+          <page_image>Aliante/NewBatch1 GDD.jpg</page_image>
+          <graph>Aliante/NewBatch1 GDD_graph.jpg</graph>
+          <web_page>Aliante/NewBatch1 GDD.htm</web_page>
+        </report>
+        <report name="NewBatch1 GDD2">
+          <page_image>Aliante/NewBatch1 GDD2.jpg</page_image>
+          <graph>Aliante/NewBatch1 GDD2_graph.jpg</graph>
+          <web_page>Aliante/NewBatch1 GDD2.htm</web_page>
+        </report>
+        <report name="NewBatch1 Dew Point">
+          <page_image>Aliante/NewBatch1 Dew Point.jpg</page_image>
+          <graph>Aliante/NewBatch1 Dew Point_graph.jpg</graph>
+          <web_page>Aliante/NewBatch1 Dew Point.htm</web_page>
+        </report>
+        <report name="NewBatch1 Chill Hours">
+          <page_image>Aliante/NewBatch1 Chill Hours.jpg</page_image>
+          <graph>Aliante/NewBatch1 Chill Hours_graph.jpg</graph>
+          <web_page>Aliante/NewBatch1 Chill Hours.htm</web_page>
+        </report>
+        <report name="NewBatch1 Wind Chill">
+          <page_image>Aliante/NewBatch1 Wind Chill.jpg</page_image>
+          <graph>Aliante/NewBatch1 Wind Chill_graph.jpg</graph>
+          <web_page>Aliante/NewBatch1 Wind Chill.htm</web_page>
+        </report>
+        <report name="NewBatch1 Heat Index">
+          <page_image>Aliante/NewBatch1 Heat Index.jpg</page_image>
+          <graph>Aliante/NewBatch1 Heat Index_graph.jpg</graph>
+          <web_page>Aliante/NewBatch1 Heat Index.htm</web_page>
+        </report>
+      </reports>
+    </station>
+  </stations>
+</webdata>
