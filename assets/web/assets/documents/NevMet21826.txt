@@ -1,0 +1,215 @@
+What is NevMet?
+
+NevMet is a network of meteorological stations (Photo 1) that are positioned throughout the Las Vegas Valley. 
+
+
+Photo 1. Weather station placed on cool season grass with sensors set at a height of 2 meters.
+
+Currently, we have 5 stations: 4 located on golf courses and 1 at the UNLV and UNR Center for Urban Water Conservation in North Las Vegas. The stations on the golf courses are situated on irrigated hybrid bermudagrass over seeded with perennial ryegrass, perennial ryegrass or seashore paspalum, whereas the station at the Center for Urban Water Conservation is situated on irrigated tall fescue. The grasses are cut on an approximate weekly basis and maintained under non water limiting conditions and fertilized to maintain a healthy stand of grass. The stations are serviced every 3 months and sensors are recalibrated/replaced when needed or otherwise replaced every 2 years. Our plan is to expand the network over time to more accurately assess environmental demand on a spatial scale. These stations have the capability to estimate environmental demand based on hourly measurements of air temperature, relative humidity, solar radiation and wind speed. These hourly measurements are used in an empirical based equation known as the Penman Monteith equation with the environmental demand output in both centimeters and inches. The use of the Penman Monteith equation is considered the gold standard for assessing environmental demand (CIMIS, California Irrigation management information system and AZMET Arizona Meteorological Network). Although we have taken steps to standardize the approach in assessing the environmental demand, we recognize that we seldom meet fetch requirements for our weather stations. Where fetch is the distance over similar plant cover in which wind blows in a somewhat constant direction, ensuring that the ETref reflects the plant cover of interest. It is recommended that fetch (sensor height to distance over similar plant cover) should be at least 1 to 100. Our sensors are positioned at a height of 2 m which means the sensors should have 200 m of fetch. A fetch of 50 m is more typical of the weather stations in our network. The hourly and daily values of ETref can be accessed by the general public through our interactive website. The data is available in both a tabular and graphical format. 
+Using ETref and Crop Coefficients (Kc)
+With the environmental demand assessed, ETref can be compared to actual water use, known as evapotranspiration (ETa), which is the sum total of water lost through the process of evaporation from the surface of bare soil and plant surfaces, and through the process of transpiration in which water vapor is lost to the atmosphere via small openings on leaf surfaces, known as stomata. This assessment is typically made on both an hourly and daily basis. It is the ratio of the actual evapotranspiration (ETa) to the reference evapotranspiration (ETref) that is known as a crop coefficient (Kc). Once crop coefficients are generated, only the reference evapotranspiration and a site-specific crop coefficient is needed to estimate actual evapotranspiration. Actual evapotranspiration is typically quantified by a hydrologic balance approach using a device known as a lysimeter (Photo 2, tank filled with soil that is buried in the ground with the surface at ground level and typically planted to turfgrass (Devitt, et al. 1992). 
+
+Photo 2. Lysimeter packed with native soil and planted to turfgrass.
+At the bottom of the lysimeter (closed tank on the bottom) are located several large ceramic extraction cups buried in diatomaceous earth. The ceramic cups are attached to vacuum tubing that runs up the side wall of the lysimeters to a vacuum pump, with drainage evacuated on a weekly basis. In the center of the lysimeter is a tube (access tube) that allows a soil water content sensor to be lowered into the soil to estimate soil water content at multiple depths (100 cm deepest depth). Evapotranspiration is then quantified by taking the water input (irrigation plus precipitation) and subtracting the volume of drainage evacuated from the bottom of the lysimeter minus the change in soil water in storage, which is quantified by integrating the water content with depth on day 1 and Day 7 of each week (Equation 1).
+[1]    Evapotranspiration (ETa) =  Input (I)  -  Output (O)  -  Change in soil water storage (ΔS)
+Note if the storage change is negative, it will drive the ET estimate up, whereas if the storage change is positive, the ET estimate will decline. Other techniques, such as weighing lysimeters, and sophisticated meteorological approaches, such as Eddy Covariance, can also be used but are much more expensive.
+Crop coefficients are species and site specific and vary on a temporal basis driven by the change in environmental demand (Table 1). Even if a site has uniform plant cover, ETa will change over the seasons. ETref in the Southwest has a bell-shaped curve (Figure 1, low in the winter, higher in the spring, highest in the summer, stepping down in the fall and returning to baseline values in winter, as such the crop coefficient will also vary. 
+
+ Figure 1 Penman Monteith reference evapotranspiration monthly for 8 different municipalities in the Mojave Desert.
+If conditions vary from the conditions in which the crop coefficients are generated, the accuracy of the adjustment goes down. For instance, higher fertilizer rates can fuel greater growth, which can, in turn, alter water use and impact the Kc. Although scientists have also generated adjustments based on stress, the same kind of stress, duration of stress and intensity of stress would have to be recreated for the coefficient adjustments to be accurate (Figure 2). It is best to avoid placing plants under stress to achieve water conservation, rather put emphasis on improving the irrigation system, quantifying accurate estimates of water use and selecting replacement cover that have lower water use rates.
+
+
+Table 1. Crop coefficients (Kc) for bermudagrass and tall fescue in Las Vegas, NV
+
+Figure 2. Relative percent cover of bermudagrass grown under different irrigation to potential ET ratios while irrigated with two different water qualities
+
+
+Irrigation Uniformity
+Irrigation systems designed by agricultural engineers can have uniformity coefficients as high as 0.95. However, improper placement of sprinkler heads, improper pressure (Photo 3), heads that are hit by mowers and sediments and algae that are pumped from irrigation ponds can partially impede water flow through the sprinkler nozzles. All are factors that can lead to significant declines in the uniform distribution of the irrigation water. If possible, try to avoid windy periods to schedule irrigations, as the wind will distort the irrigation pattern. Winds average over 8 miles per hour in the Las Vegas Valley, which can make it challenging to achieve high uniformities. Checking the irrigation uniformity of a system is time well spent. Homeowners often address dry spots in their landscape by increasing the irrigation amount to deliver a more appropriate amount to the dry area, which of course leads to over irrigation of the areas that initially received an adequate amount of water. If dry areas are observed in the landscape, especially turfgrass areas, the uniformity of the irrigation system needs to be assessed. This assessment can be done using different approaches. One approach for golf courses is to place 25 to 100 plastic cups in a grid fashion between an area that receives the majority of water from parallel lines, selecting 4 heads that represent a well-defined area (Photo 4).
+
+
+Photo 3. Turfgrass area revealing circular wet and dry regions because of inadequate water pressure.
+Photo 4. Sprinkler irrigation uniformity test on a golf course in Las Vegas, NV.
+
+Be careful placing the cups, making sure that the cups are far enough from the sprinkler heads to avoid water hitting the side walls of the cups with the majority of spray falling from above directly into the cups. Run the system for 10-15 minutes (a time that does not lead to surface runoff) and measure the volume of water in the cups, noting their location within the grid. You will also need to run adjacent lines that might throw water into the test area.  Next, calculate the average volume of water in the 25-100 cups and calculate the standard deviation (ask your Extension office for assistance in calculating this value). Use equation 2 to calculate the uniformity coefficient (Christiansen Uniformity Coefficient).
+[2] CUC = 1 – 0.8(standard deviation/average value)
+Note that 1 ounce of water is equal to 29.6 cubic cm. You will divide the volume of water in cubic cm by the upper area of the cup (area in cm square = 3.14 times the radius of the cup area squared). This will give you the depth of irrigation water in cm. Take the extra time and plot the volumes on graph paper, looking for any well-defined patterns. Don’t just accept a CUC value of > 0.85 as good enough. Minor adjustments in the sprinkler heads can often improve distorted patterns and increase the CUC. Realize that if you are irrigating with poorer quality water, such as reuse water (treated sewage effluent), non uniform distribution of water also leads to the non-uniform distribution of salts that are in the water and inadequate leaching in those areas receiving lower amounts of water.
+
+Water Quality and the Leaching Fraction
+Irrigating with reuse water, and even Colorado River water (Table 2), requires the consideration of incorporating a leaching fraction. Where the leaching fraction (LF) is defined as the volume of drainage water passing through the rootzone divided by the irrigation volume applied to the same area (Equation 3). 
+[3] LF = Drainage Volume (D) / Irrigation Volume (I)
+The leaching faction is the percentage of the irrigation water that ends up draining from the rootzone. The leaching fraction can also be looked upon as a concentration factor: as the LF goes down, less water is leaving the rootzone, as such, salts in the soil water rise. If your system is under steady state conditions (salt in equals salt out), the volume of drainage (Vd) times the concentration of drainage (Cd) equals the volume of irrigation (Vi) times the concentration of the irrigation water (Ci). Under steady state conditions, VdCd = ViCi which means Vd/Vi = Ci/Cd and Vd/Vi is equal to the LF, which means the LF in the field can be assessed by measuring the chloride concentration in the irrigation water and in the soil below the rootzone. We recommend if your irrigation water contains significant levels of salt (Figure 3), a leaching fraction of 15% should be incorporated in the irrigation amount. Realize that the Colorado River contains about one ton of salt per acre foot of water. 
+
+Figure 3. Salt loading on bermudagrass based on two different qualities of reuse water
+
+
+
+
+
+Table 2. Water quality of different sources of water available to communities located in the Mojave Desert.
+* Approximately 90 percent of municipal water used in the Las Vegas Valley comes from Lake Mead, with the remaining 10 percent from groundwater.
+
+
+This means if you place a foot of Colorado river water on a football field and let it dry, it would leave behind about one ton of salt. If you apply 5 feet of water to bermudagrass on a yearly basis, you would be applying 5 tons of salt, and if no leaching was included, the salt loading could reach as much as 50 tons of salt over a ten-year period. A clear salt buildup would be observed which would require a new irrigation strategy that incorporates a leaching fraction.
+If golf courses and parks are asked to transition to reuse water (a good thing), realize that more water will be needed for irrigation, not less, as a leaching fraction must be included. If you are irrigating with poorer quality water, consider utilizing a leaching requirement (Equation 4).
+[4] (LR = ECi / (5*(ECe threshold – ECi)
+which is the amount of leaching required to maintain the soil salinity below a species-specific threshold (Table 3).
+
+
+
+Table 3. Soil salinity threshold values (dS/m) for different turfgrass species
+
+Where LF is based on irrigation and drainage volumes and not based directly on salinity. Although LR values exist for agronomic crops and even turfgrass species, few values exist for landscape plants. If you do select to use an LR, it means that you would substitute the LR for the LF in Equation 3. This also means that you will need to soil sample with depth and analyze for soil salinity (ECe) and the salinity of the irrigation water (ECi) (talk with Extension staff to make sure you are following proper sampling protocol).If you run additional sprinkler irrigation run times with your cups (5, 10, 15 minutes) and convert the cm3 of water in the cups to a depth of water by dividing the cm3 by the cm2 of the cup area, you can develop a linear relationship between run times in minutes and depth of water applied. You will need the irrigation depth to predict an irrigation run time in minutes. Using Equation 5.
+[5] Irrigation = (ETref *Kc)/(1-LF)
+which describes how ETref is adjusted with an appropriate Kc value, followed by the incorporation of a desired LF to generate a depth of water to apply. If you have a well-designed irrigation system with state-of-the-art sprinkler heads that deliver an accurate amount of water to a given area and the pressure is maintained at optimum levels, use the precipitation rates for your specific sprinkler heads. However, if you are a homeowner, your best option may be to establish your own time vs depth of water applied. Incorporating both an LF and a CUC often leads to over-irrigation. We recommend spending time improving the uniformity of the irrigation system without incorporating a CUC adjustment for the irrigation and only incorporating the LF. We recognize that a CUC by LF interaction (Photo 5) can impact the distribution of both water and salts, which can lead to a direct physiological response of the plants. Lesky and Devitt (1994) showed this interaction for tall fescue with tradeoffs between the CUC and LF on both salt buildup and elevated canopy temperatures (Figure 4).
+
+
+Photo 5. Tall fescue irrigated with two different quantities to maintain different leaching fractions. The turfgrass plots were also maintained under different irrigation uniformities.
+
+
+
+
+
+
+Figure 4. Soil salinity (upper graph) and grass canopy temperatures (lower graph) based on different leaching fractions and different irrigation uniformity coefficients.
+Irrigation Frequency 
+Irrigation frequency is a management decision that can have a significant impact on plant response, especially if irrigated with poorer quality waters. When plants extract water from the soil the salt in the soil concentrates. The longer the interval between irrigations the greater the dry down and the greater the concentration of salts, causing a reverse oscillation (soil moisture down – salt concentrations up). This is especially true for sandier soils that do not hold as much water as soils with higher levels of clay. Incorporating organic matter to enhance the moisture holding ability of the soil can be beneficial, especially in hot, dry environments where the decomposition of organic matter is high, requiring yearly additions to have a significant lasting effect. High irrigation frequency on higher clay content soils can lead to decreased aeration as the soil remains too wet, impeding oxygen diffusion. Setting lower irrigation frequencies would be recommended for these higher clay content soils. Whereas in the sandier soils, a higher frequency of irrigation is recommended to avoid the higher oscillations in the concentration of salt. At the same time, higher irrigation volumes can lead to greater depth penetration and the enhancement of deeper root systems. However, this can be problematic for trees that are irrigated with high frequency as it would support a shallower root system (Photo 6), a condition that can lead to a higher incidence of trees blowing over in high winds.
+
+
+Photo 6. Tree root growing near the surface of an area growing turfgrass. High irrigation rates on the turfgrass supported a shallower tree root system.
+
+Spray Irrigation and Foliar Damage to Trees and Shrubs
+Mixed landscapes are challenging to irrigate (Photo 7) as plant material can often intercept sprinkler irrigated water, distorting its pattern. Under such conditions, it would be recommended to combine sprinkler irrigation (turfgrass) with drip irrigation (shrubs and trees). Applying water that contains significant levels of soluble salts can cause foliar damage, if the water is sprinkled directly on the plant canopy.           
+                                    
+Photo 7. Mixed landscape at a park in Las Vegas, NV, comprised of trees, shrubs and turfgrass irrigated with a combination of bubblers and a sprinkler irrigation system.
+Avoiding spray irrigation from wetting up the surface of leaves is highly recommended, unless the 
+species has been demonstrated to restrict foliar absorption of salts, with only minimal foliar damage (Table 4, Photo 8).
+
+ 
+
+
+	 Photo 8. Foliar damage to Chinese Pistache spray irrigated with reuse water.                                                                                                                   
+
+
+
+General Recommendations when Irrigating with Water that Contains Elevated Levels of Soluble Salts
+Irrigation management must become more science based to avoid excessive salt loading and elevated plant stress. 
+Increased leaching will be required to maintain proper soil salinity levels, which means the uniformity of the irrigation system and the leaching fraction must increase.
+Monitoring the soil salinity must occur on a regular basis – always know the salt status of your soil.
+Know the quality of your irrigation water (especially the salinity, pH, sodium, chloride and boron levels).
+Know your plants – recognize symptoms (salinity, nutrient deficiencies, specific ion accumulation). Select plants for their salt tolerance and for their ability to tolerate high summer temperatures.
+Know your soil. Soils suffer from tremendous spatial variability (the soils in your backyard and at your friend’s house ¼ of a mile away can be significantly different). You need to know if your soil has good aeration and internal drainage.
+Irrigate in parallel with environmental demand (Figure 5). Your irrigation should track ETref as a bell-shaped curve.
+Figure 5. Evapotranspiration of locust trees and reference evapotranspiration over time.
+
+Reduce foliar application of water – minimize leaf wetting times (especially if using reuse water).
+Assess the uniformity of your irrigation system on a regular basis.
+Recognize if you are using reuse water, a significant nitrogen load can exist. Fertilizer applied should be reduced to take full advantage of this free nitrogen.
+If your soil is high in sand content (Table 5), you will need to have a higher irrigation frequency as opposed to higher clay content soils where the irrigation frequency should be reduced to enhance oxygen movement into the soil.
+
+
+
+
+
+Table 5. Available water holding capacity based on soil texture (Storlie 1995).
+Have your soil analyzed every 2-3 years or as often as needed to determine what may be causing elevated levels of plant stress in different areas of the landscape. Be aware that specific ions such as boron can be present in desert soils. If elevated, realize that it takes 3 times the amount of water to displace boron as it does soluble salts (NaCl). Adding organic matter can temporarily lock up significant amounts of boron but organic matter would need to be applied on a regular basis to keep up with high decomposition rates associated with high temperatures.
+If using reuse water, realize that the water delivered to irrigation ponds is significantly different from municipal water. Studies by Devitt et al (2004) report reuse water temperatures 25% warmer than municipal water. 53% higher salinity, 1075% higher PO4-P all leading to chlorophyll concentrations 436% greater, which all contributed to a 46% reduction in clarity. Maintaining good circulation and aeration in the irrigation ponds is key to minimizing problems with sprinkler nozzles clogging. Reducing the holding time in the ponds is also recommended and controlling pH from oscillating is also important. Maintaining pH between 6.5 and 8.0 will contribute to a healthier environment for aquatic organisms.
+
+Compounding Factors
+Microclimates: Buildings and other structures Oke (2003) reported that ET could be 10-30             % lower at a distance within ten times the height of a barrier (Photo 9). Wind speed will be reduced and the rate at which vapor is swept off the leaves will also be reduced. Well defined microclimates can be established with structures providing shade and protection from the wind.
+Urban Heat Island (Figure 6): In the downtown area of cities like Las Vegas, greater amounts of concrete and asphalt can be found compared to suburbia where there is more open space. 
+
+
+
+
+
+
+
+
+Photo 9. Landscape plants growing  next to a structure that provides a wind barrier.
+Figure 6. Urban heat island depicts the rise in air temperatures in the downtown core of cities associated with asphalt and concrete holding heat during the day and then releasing the heat at night.
+
+Asphalt concrete and buildings will store heat and release it once the sun goes down, elevating nighttime temperatures. Las Vegas is the second fastest warming city in the US behind Reno, NV. Nighttime temperatures in Las Vegas average over 80 F in July, which is over 20 F warmer than found in Victorville (both in the Mojave Desert, Figure 7).
+
+
+Figure 7. Night time low air temperatures over time at 8 different municipalities in the Mojave Desert.
+
+Depth to groundwater and quality of groundwater: Although the primary aquifer in the Las   
+Vegas Valley is now several hundred feet below the land surface, there exists a perched saline 
+aquifer from the surface down to about 40 feet, mostly in the southeast portion of the valley (layers of sediment with high levels of clay content restrict the downward movement of this water). As you move toward the Wetland Regional Park in the southeast part of the valley (Figure 8), this shallow aquifer can be just a few feet below the surface. Unfortunately, this water contains significant levels of soluble salts. These salts can move toward the surface under the influence of capillarity. Salinity levels in some areas are in excess of 7,500 parts per million (near 10 dSm-1), (Figure 9) with soil solution above this shallow groundwater approaching salt levels found in seawater (35,000 parts per million or around 50 dSm-1). Although salt tolerant grasses like salt grass and bermudagrass could be irrigated with this water, few trees would be able to tolerate it (Photo 10). Thus, it is critical that salts from this shallow system not be allowed to reach into the root zone of trees.
+
+Photo 10. Pine tree growing on the campus of UNLV impacted by salt build up from a shallow saline aquifer.
+
+
+
+
+
+Figure 8. Depth to the perched shallow saline aquifer in the southeast part of the Las Vegas Valley (SNWA).
+
+
+
+
+
+
+
+
+
+Figure 9. Salinity levels in the perched shallow saline aquifer in the southeast part of the Las Vegas Valley (SNWA).
+
+Cool season vs warm season turfgrass species. All grass is not the same. Warm season grasses like bermudagrass, buffalograss, salt grass and zoysiagrass grow in warm regions of the US, while cool season grasses, such as tall fescue, bluegrass and annual ryegrass are more ideal in the cooler regions of the US. Cool season grass grown in warm regions require larger amounts of water with higher ET rates. In the summer months, tall fescue has a crop coefficient as high as 1.1, while bermudagrass has Kc values in the 0.6 to 0.9 range.
+Xeric vs mesic species. Xeric species grow in warmer, drier regions, while mesic species grow in cooler, wetter regions. In designing a landscape, the irrigation system should be based on hydrozones with separate valves which isolate mesic from xeric species. Although xeric species are better adapted to desert regions, water use is still driven by the amount of water provided. Most plants are opportunistic and will utilize more water if provided more water, often driving greater growth.
+Sophisticated irrigation clocks. Great advancements have been made in irrigation clocks, allowing irrigators the ability to utilize soil moisture data and even satellite information, such as vegetation indices like NDVI. These clocks are expensive, but will pay for themselves over a relatively short period of time.
+Plant density – few trees vs dense stand of trees. The greater the density of vegetation, turbulence will decline and water loss on a leaf surface area will also decline if water is available. If the landscape is open and only a few trees exist in the landscape, those trees will be losing water at a greater rate since the wind movement will not be as altered. However, under an orchard setting with a cover crop in the rows between the trees, the Kc value can approach 1.2
+Landscape design: mini oasis and Xeriscape. Well designed landscapes with water conservation in mind will employ design elements based on xeriscape principles. These principles                                                                                                                                                                                                                                                                                                                                                                                                  include: 1) appropriate landscape planning and design, 2) soil improvement, 3) efficient irrigation, 4) use of mulch, 5) use of low water use plants, 6) practical turf areas and 7) appropriate maintenance. The mini-oasis landscape design concept divides the landscape into 3 water-use zones; high, intermediate and low, reflecting different levels of outside human activity, as well as plant water use. The frequency of human activity determines the choice, numbers, and placement of landscape plants. Ultimately, the finished landscape design has a large potential impact on the amount of exterior water used. In turn, these three zones receive varying amounts of irrigation water and at different times because of the type of plants selected, mature size and their numbers. These landscape zones can vary in size depending on the amount of human activity. The important thing to remember is to water plants with different irrigation requirements separately from each other and to create different hydrozones.
+Drip vs sprinkler irrigation utilizing hydrozones.
+Drip or trickle irrigation has the potential to deliver precise amounts of water to trees using low water pressure.  If the system is designed and maintained properly, drip irrigation shows the greatest promise in desert landscapes for conserving irrigation water. Sprinkler irrigation is more suitable for turfgrass areas. Although subsurface drip irrigation has been demonstrated to work on turfgrass it does require constant attention to make sure the drip system is totally operational without plugging.
+High fertility vs low fertility. All plants require macronutrients and micronutrients for growth and development. Nitrogen applications will support active growth. However, too much growth will lead to greater water requirements. As such, nitrogen management should be viewed as a water conservation tool. 
+
+
+Tree Water Use
+Unfortunately, there are few, if any, tables that list the water requirements of trees. Instead, most published data on the water use of trees categorize the trees as low, medium or high water users. These estimates often do not consider the tree size or the fact that many trees are opportunistic in their water use and use more water if available.
+What is known
+Larger trees use more water than smaller trees of the same species.
+Trees growing in open areas (with significant distance between other trees and shrubs) typically have higher water requirements than trees growing in more densely planted areas and or protected by structures.
+Water requirements of trees are highest during the summer period with their overall water use following a bell shaped curve similar to ETref. This assumes that the trees are not being deficit irrigated, as some xeric trees under deficit irrigation may not track ETref as closely.
+ Higher light intensities, higher temperatures, lower relative humidities and higher wind speed increases plant water use if water is available.
+Applying higher irrigation volumes above a tree’s actual needs can lead to greater water use. Doing this can cause some so-called low water use trees to shift into higher water use categories, which often leads to increased growth. In an earlier study by Devitt et al. (1994), water use rates were significantly higher in both mesquite and oak, when higher amounts of water were applied. However, a more subtle change was observed in desert willow, which showed leaf yellowing and leaf drop under wetter conditions. Such results led Devitt et al. (1994) to conclude that plant selection alone will not be enough to achieve maximum water savings, water management must play a critical role in developing low water use landscapes. Technology exists to assist irrigators; tensiometers which assess how wet or dry a soil is can be used to develop a threshold value to signal for an irrigation event (Figure 10). Soil moisture sensors are becoming more reasonably priced, which can be used to achieve deep water penetration into the soil and also used to establish threshold values to trigger irrigation events.
+
+     
+
+Figure 10. Drawing depicting a tree growing in a basin with two tensiometers placed at two different depths to assist irrigators in the scheduling of irrigations.
+
+Wynne and Devitt (2019 and 2022) quantified the water use of 10 landscape tree species. ET was estimated by closing a water balance on 30 trees. ET of the trees tracked ETref with a slight shift during summer months, with higher ET later in the summer, perhaps related to the trees more tightly regulating water loss via stomata under higher air temperatures. 
+In Table 6, average irrigation estimates for 15-25 foot tall landscape trees growing in a research site in North Las Vegas are reported. Data for all ten species were combined to approximate an average tree water use. We are not suggesting that these estimates are the penultimate estimates, but instead report 
+
+values as a starting point, that will get most trees on a bell shaped irrigation curve.
+
+Table 6. Irrigation volumes for trees basin irrigated at depths of either one inch or two inches on a monthly basis in Las Vegas, NV.
+
+
+
+Photo 11. Landscape trees growing in an orchard setting in Las Vegas NV. A hydrologic balance was closed on 30 test trees in the orchard.
+Problem Solving
+Problem 1. You are growing high fertility bermudagrass on a golf course. You are irrigating with reuse water. You want to schedule irrigation events for the second week of July.
+Go to the website and select reference ET for the second week in July. For this example, we will assume 0.93 cm per day or 6.53 cm of environmental demand for the entire week (note we are using centimeters (2.54 cm per inch).
+Select the appropriate crop coefficient (Kc) from Table 1 for the high fertility bermudagrass. A Kc of 0.89 would be selected for July.
+Impose a 15% leaching fraction (LF) because you are irrigating with reuse water.
+Check the uniformity of your irrigation system. Make sure the CUC is greater than 0.85 with no well-defined patterns existing. Do not incorporate an adjustment for uniformity but make sure you have examined your irrigation system and made any necessary adjustments.
+ Use the equation     Irrigation (I) = (ETref*Kc)/(1-LF).
+I = (6.53*0.89)/(1-.15)
+I = 5.82/0.85
+I = 6.84 cm
+Schedule daily irrigation in the early evening to minimize evaporation and avoid golfers on the course.
+6.84/7 = 0.98 cm per day.
+If the precipitation rate for the sprinkler heads is 0.7 inches per hour this equals 1.78 cm per hour.
+0.98 cm/1.78 cm per hour equals .55 hours or 33 minutes of irrigation per day.
+
+Problem 2 
+Calculate the leaching requirement (LR) for bermudagrass irrigated with reuse water (ECi = 1.75 dSm-1). 
+Select the Soil salinity threshold of 6.9 dSm-1 for bermudagrass from Table 3.
+Use The equation LR = ECi / (5*(ECe threshold – ECi)
+LR = 1.75 dSm-1 / (5*(6.9 dSm-1 – 1.75 dSm-1) = 1.75 / 10.75 = 0.07 LR
+If growing tall fescue use a soil salinity threshold of 3.9 dSm-1
+1.75dSm-1 / (5*(6.9dSm-1 – 1.75 dSm-1) = 0.16LR
+Because tall fescue has a lower salinity threshold, a higher leaching requirement would be needed compared to the more salt tolerant bermudagrass.
+If using the LR replace the LF with the LR to calculate the amount of irrigation water to apply.
